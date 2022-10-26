@@ -1,0 +1,31 @@
+ data.forEach( ({snippet})=> {
+            console.log('snippet[2]:', snippet[2].title);
+            console.log("videoId:", videoId);
+            // console.log("title:", title);   
+            // console.log('url:', url)
+
+            // let thubnail_Image = document.createElement("img");
+            // thubnail_Image.src = url;
+            // thubnail_Image.setAttribute("class", "thubnail_Image")
+
+            // let titlE_Div = document.createElement("h5");
+            // titlE_Div.innerText = title;
+            // titlE_Div.setAttribute("class", "titlE_Div");
+
+            // let div = document.createElement("div");
+            // let div_container = document.createElement("div");
+            // div_container.setAttribute("class", "div_container");
+
+            // channelTitle = document.createElement("p");
+            // channelTitle.innerText = `${snippet.channelTitle} ☑`;
+
+            // let div22 = document.createElement("div");
+            // let div_bottom = document.createElement("div");
+            // div_bottom.setAttribute("id", "div_bottom")
+
+            // div22.append(titlE_Div, channelTitle, div_bottom)
+            // div_container.append(div22)
+
+            // div.append(thubnail_Image, div_container)
+            // container2.append(div)
+        });

@@ -1,0 +1,229 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #181818;
+  
+   /* background-color: white; */
+  font-family: sans-serif;
+}
+#navbar {
+
+  height: 70px;
+  width: 98.5vw;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  background-color: #222021;    
+}
+#navbar1 {
+  display: flex;
+}
+#navbar1 > ion-icon {
+  background-color: #222021;
+  width: 35px;
+  height: 35px;
+  margin-left: 27px;
+  color: white;
+}
+#navbar1 > div >a{
+  display: flex;
+  text-decoration: none;
+  margin-left: 30px;
+}
+#navbar1 > div > a> ion-icon {
+  width: 45px;
+  height: 35px;
+  color: red;
+}
+#navbar1 > div > a> h1 {
+  margin-left: 10px;
+  
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+}
+ion-icon {
+  width: 28px;
+  height: 28px;
+}
+#navbar2 {
+  /* background-color: maroon; */
+  display: flex;
+  margin-left: 130px;
+  margin-top: 10px;
+}
+#navbar2 > input {
+  width: 538px;
+  height: 40px;
+  background-color: #121212;
+  border: 0.5px solid #3b3b3b;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding-left: 10px;
+  border-radius: 0px;
+  color: white;
+}
+#qurey:hover {
+  background-color: white;
+  color: black;
+}
+#navbar2 > button {
+  background-color: #3b3b3b;
+  width: 70px;
+  border: 0.5px solid #3b3b3b;
+  color: white;
+  height: 43px;
+}
+#navbar2 > button > ion-icon {
+  width: 24px;
+}
+#mic {
+  margin-left: 10px;
+  color: white;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: #181818;
+}
+#navbar3 {
+  /* background-color: salmon;   */
+  width: 180px;
+  margin-left: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+#navbar3 > ion-icon {
+  padding: 10px;
+  border-radius: 30px;
+}
+
+#navbar3 > ion-icon:nth-child(1) {
+  border-radius: 30px;
+  background-color: #3b3b3b;
+  color: white;
+}
+#profile {
+  height: 50px;
+  width: 50px;
+  /* background-color: fuchsia; */
+  border-radius: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#profile > img {
+  height: 45px;
+  width: 50px;
+}
+#box {
+  /* background-color: olive;  */
+  width: 98.5vw;
+  display: flex;
+  margin: auto;
+  justify-content: space-betwee;
+}
+#side_div {
+  background-color: #212121;
+  width: 85px;
+}
+#side_div > div {
+  color: white;
+  /* background-color: aqua; */
+  text-align: center;
+  margin-top: 35px;
+}
+#side_div > div:nth-child(1) {
+  margin-top: 28px;
+}
+#side_div > div ion-icon {
+  width: 25px;
+  height: 25px;
+}
+#side_div > div p {
+  font-size: 10px;
+  margin-top: 2px;
+  font-weight: bold;
+}
+#search_result {
+  background-color: #181818;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* gap: -20px; */
+  /* margin-left: 15px;
+  margin-right: -10px; */
+}
+#search_result > div {
+  /* background-color: forestgreen; */
+  width: 345px;
+  text-align: center;
+}
+#search_result > div img {
+  /* background-color: #000000 ; */
+  width: 327px;
+  text-align: center;
+}
+#search_result > div img:hover {
+  margin-top: -50px;
+  width: 360px;
+  height: 300px;
+  margin-left: -8px;
+}
+.div2 {
+  display: flex;
+  justify-content: start;
+  margin-left: 15px;
+  /* background-color: blue; */
+}
+.div2 > div:first-child {
+  height: 6px;
+  width: 6px;
+  padding: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  background-color: white;
+  border-radius: 60px;
+  margin-top: 10px;
+}
+.div2 > div:last-child {
+  /* background-color: chocolate; */
+  height: auto;
+  text-align: left;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  width: 200px;
+}
+.div2 > div:last-child > p {
+  font-size: 14px;
+  margin-top: 15px;
+  color: #cecdd1;
+  font-weight: 100;
+}
+
+/* display_result */
+#display_result {
+  /* width: 550px;
+    height: 400px;
+    background-color: white;
+    margin: auto;
+    margin-left: 426px;
+    margin-top: -10px; */
+  overflow: auto;
+  /* display: none; */
+  /* position: relative; */
+  /* position: absolute;
+    z-index: 0px;
+    background-color: transparent; */
+}
+/* #display_result:hover {
+  /* background-color: white; */
+
